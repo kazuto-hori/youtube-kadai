@@ -8,11 +8,32 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITabBarDelegate {
 
+    private var myTabBar: UITabBar!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let width = self.view.frame.width
+        let height = self.view.frame.height
+        
+        let tabBarHeight: CGFloat = 49
+        
+        myTabBar = UITabBar()
+        myTabBar.frame = CGRect(x:0, y:height-tabBarHeight, width: width, height:tabBarHeight)
+        myTabBar.barTintColor = UIColor.lightGray
+        myTabBar.unselectedItemTintColor = UIColor.white
+        myTabBar.tintColor = UIColor.blue
+
+        let home: UITabBarItem = UITabBarItem(title: "ホーム", image: UIImage(named: "Downloads"), tag:1)
+        let settings: UITabBarItem = UITabBarItem(title: "設定", image: UIImage(named: "settings"), tag:2)
+        
+        myTabBar.items = [home,settings]
+        myTabBar.delegate = self
+        
+        self.view.addSubview(myTabBar)
+        
     }
 
     override func didReceiveMemoryWarning() {

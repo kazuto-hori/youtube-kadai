@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49798011C612EC987C14A6DE /* Pods_youtube_kadai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC3FBA200DE061DCA97B600 /* Pods_youtube_kadai.framework */; };
 		865F6FB31F89B38D00C96340 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F6FB21F89B38D00C96340 /* AppDelegate.swift */; };
 		865F6FB51F89B38D00C96340 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F6FB41F89B38D00C96340 /* ViewController.swift */; };
 		865F6FB81F89B38E00C96340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865F6FB61F89B38E00C96340 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		865F6FBD1F89B38E00C96340 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865F6FBB1F89B38E00C96340 /* LaunchScreen.storyboard */; };
 		865F6FC81F89B38E00C96340 /* youtube_kadaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F6FC71F89B38E00C96340 /* youtube_kadaiTests.swift */; };
 		865F6FD31F89B38E00C96340 /* youtube_kadaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F6FD21F89B38E00C96340 /* youtube_kadaiUITests.swift */; };
+		865F6FE11F89C2A200C96340 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F6FE01F89C2A200C96340 /* homeViewController.swift */; };
+		865F6FE31F89C2BA00C96340 /* settingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F6FE21F89C2BA00C96340 /* settingViewController.swift */; };
+		86C590C91F8A1CBC009A2AF5 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C590C81F8A1CBC009A2AF5 /* InputViewController.swift */; };
+		86C590CB1F8A21E5009A2AF5 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C590CA1F8A21E5009A2AF5 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		345C6557B6291411DB757198 /* Pods-youtube-kadai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-youtube-kadai.release.xcconfig"; path = "Pods/Target Support Files/Pods-youtube-kadai/Pods-youtube-kadai.release.xcconfig"; sourceTree = "<group>"; };
+		4DC3FBA200DE061DCA97B600 /* Pods_youtube_kadai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_youtube_kadai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		865F6FAF1F89B38D00C96340 /* youtube-kadai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-kadai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		865F6FB21F89B38D00C96340 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		865F6FB41F89B38D00C96340 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		865F6FCE1F89B38E00C96340 /* youtube-kadaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "youtube-kadaiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		865F6FD21F89B38E00C96340 /* youtube_kadaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtube_kadaiUITests.swift; sourceTree = "<group>"; };
 		865F6FD41F89B38E00C96340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865F6FE01F89C2A200C96340 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		865F6FE21F89C2BA00C96340 /* settingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingViewController.swift; sourceTree = "<group>"; };
+		86C590C81F8A1CBC009A2AF5 /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		86C590CA1F8A21E5009A2AF5 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		B7B16E7F583841CD1A8A38E2 /* Pods-youtube-kadai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-youtube-kadai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-youtube-kadai/Pods-youtube-kadai.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49798011C612EC987C14A6DE /* Pods_youtube_kadai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		638BC24A216FAE4CB75213D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DC3FBA200DE061DCA97B600 /* Pods_youtube_kadai.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		865F6FA61F89B38D00C96340 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +102,8 @@
 				865F6FC61F89B38E00C96340 /* youtube-kadaiTests */,
 				865F6FD11F89B38E00C96340 /* youtube-kadaiUITests */,
 				865F6FB01F89B38D00C96340 /* Products */,
+				F41F3D8DFAF086601515478C /* Pods */,
+				638BC24A216FAE4CB75213D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +123,10 @@
 				865F6FB21F89B38D00C96340 /* AppDelegate.swift */,
 				865F6FB41F89B38D00C96340 /* ViewController.swift */,
 				865F6FB61F89B38E00C96340 /* Main.storyboard */,
+				86C590C81F8A1CBC009A2AF5 /* InputViewController.swift */,
+				865F6FE01F89C2A200C96340 /* homeViewController.swift */,
+				86C590CA1F8A21E5009A2AF5 /* Task.swift */,
+				865F6FE21F89C2BA00C96340 /* settingViewController.swift */,
 				865F6FB91F89B38E00C96340 /* Assets.xcassets */,
 				865F6FBB1F89B38E00C96340 /* LaunchScreen.storyboard */,
 				865F6FBE1F89B38E00C96340 /* Info.plist */,
@@ -125,6 +152,15 @@
 			path = "youtube-kadaiUITests";
 			sourceTree = "<group>";
 		};
+		F41F3D8DFAF086601515478C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7B16E7F583841CD1A8A38E2 /* Pods-youtube-kadai.debug.xcconfig */,
+				345C6557B6291411DB757198 /* Pods-youtube-kadai.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 865F6FD71F89B38E00C96340 /* Build configuration list for PBXNativeTarget "youtube-kadai" */;
 			buildPhases = (
+				CDEA198935671FDF523C8DC9 /* [CP] Check Pods Manifest.lock */,
 				865F6FAB1F89B38D00C96340 /* Sources */,
 				865F6FAC1F89B38D00C96340 /* Frameworks */,
 				865F6FAD1F89B38D00C96340 /* Resources */,
+				537F09892A6B51B884602027 /* [CP] Embed Pods Frameworks */,
+				FDEAA8E9D57476416D064FDA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +293,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		537F09892A6B51B884602027 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-youtube-kadai/Pods-youtube-kadai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDEA198935671FDF523C8DC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDEAA8E9D57476416D064FDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-youtube-kadai/Pods-youtube-kadai-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		865F6FAB1F89B38D00C96340 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				865F6FB51F89B38D00C96340 /* ViewController.swift in Sources */,
+				86C590CB1F8A21E5009A2AF5 /* Task.swift in Sources */,
+				86C590C91F8A1CBC009A2AF5 /* InputViewController.swift in Sources */,
+				865F6FE11F89C2A200C96340 /* homeViewController.swift in Sources */,
 				865F6FB31F89B38D00C96340 /* AppDelegate.swift in Sources */,
+				865F6FE31F89C2BA00C96340 /* settingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,25 +503,31 @@
 		};
 		865F6FD81F89B38E00C96340 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B16E7F583841CD1A8A38E2 /* Pods-youtube-kadai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "youtube-kadai/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.kazuto-hori.youtube-kadai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		865F6FD91F89B38E00C96340 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345C6557B6291411DB757198 /* Pods-youtube-kadai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "youtube-kadai/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.kazuto-hori.youtube-kadai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -507,6 +604,7 @@
 				865F6FD91F89B38E00C96340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		865F6FDA1F89B38E00C96340 /* Build configuration list for PBXNativeTarget "youtube-kadaiTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +613,7 @@
 				865F6FDC1F89B38E00C96340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		865F6FDD1F89B38E00C96340 /* Build configuration list for PBXNativeTarget "youtube-kadaiUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +622,7 @@
 				865F6FDF1F89B38E00C96340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
