@@ -15,8 +15,8 @@ class homeViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     let realm = try! Realm()
     
-    var taskArray = try! Realm().objects(Task.self)
-    
+    var taskArray = try! Realm().objects(Task.self) .sorted(byKeyPath: "id", ascending: false)
+
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
         let inputViewController:InputViewController = segue.destination as! InputViewController
